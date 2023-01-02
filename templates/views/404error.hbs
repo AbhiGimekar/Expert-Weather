@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        {{>headerlinks}}
+    </head>
+
+    <body>
+       {{>navbar}}
+
+        <!-- Main Header -->
+        <div class="container-fluid main_header">
+            <div class="row">
+                <div class="col-md-10 col-12 mx-auto">
+                    <div class="row">
+                        <!-- Left Side Div -->
+                        <div class="col-md-12 main_header_left align-items-center">
+                            <figure class="errimg">
+                                <img src="https://img.freepik.com/free-vector/404-error-with-landscape-concept-illustration_114360-7898.jpg?w=2000" alt="Abhay" class="img-fluid" title="Abhay Gimekar">
+                            </figure>
+                        {{!-- </div>
+                        <div class="col-md-6 main_header_left"> --}}
+                            {{!-- <p>Welcome To The Weather App</p> --}}
+                            <h1> {{errMsg}} </h1>
+                            <a href="/"> <button>Go Back</button> </a>
+                        </div>
+
+                        <!-- Right Side Div -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{>footer}}
+    </body>
+
+</html>
